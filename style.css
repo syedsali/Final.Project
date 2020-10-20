@@ -6,13 +6,23 @@ nav{
 #fw{
     font-size: 50px;
     font-family: 'Kaushan Script', cursive;
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: translateY(90deg);
     }
+
+@keyframes heading {
+    0%{transform: translateY(-100px)}
+    100%{transform: translateY(5px)}
+}
 
 #home{
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
-    padding: 20px;
+    padding: 3px;
+    margin-left: 250px;
 }
 
 #ww
@@ -20,14 +30,15 @@ nav{
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
-    padding: 20px;
+    padding: 3px;
+    margin-left: 20px;
     }
 
 #food{
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
-    padding: 20px;
+    padding: 3px;
 
 }
 
@@ -35,7 +46,8 @@ nav{
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
     text-decoration: none;
-    padding: 20px;
+    padding: 3px;
+    margin-left: 20px;
 }
 
 {
