@@ -18,5 +18,4 @@
 *	Google fonts
 *	W3schools
 
- ### Live Link https://syedsali.github.io/Final.Project/
-
+[Live Link](https://syedsali.github.io/Final.Project/)
