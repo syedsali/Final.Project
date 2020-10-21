@@ -1,4 +1,4 @@
-# Final.Project
+# Fitness World
 
 
 ### Developer: Syed S.Ali
@@ -10,11 +10,13 @@
 *	This web page will provide all the information you need for a healthy life style. 
 *	It also provide diet plan and video all for free.
 
-###Technology to be used:
+### Technology to be used:
 
 *	HTML
 *	CSS
 *	Bootstrap
 *	Google fonts
 *	W3schools
+
+ ### Live Link https://syedsali.github.io/Final.Project/
 
