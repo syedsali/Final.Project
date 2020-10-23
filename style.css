@@ -1,6 +1,8 @@
 
 nav{
     text-decoration: none;
+    position: relative;
+    width: 1px;
 }
 
 #fw{
@@ -116,3 +118,11 @@ nav{
 
     
     }
+
+    p::selection {
+      background-color: gray;
+      cursor: text;
+      }
+  h1{
+    color: darkkhaki;
+  }
