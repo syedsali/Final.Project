@@ -1,8 +1,12 @@
+.c:after{
+  clear: both;
+  content: "";
+  display: block;
+}
 
 nav{
     text-decoration: none;
-    position: relative;
-    width: 1px;
+
 }
 
 #fw{
@@ -50,11 +54,8 @@ nav{
     text-decoration: none;
     padding: 3px;
     margin-left: 20px;
-}
-
-{
     box-sizing: border-box;
-  }
+}
   
   input[type=text], select, textarea {
     width: 100%;
@@ -123,6 +124,32 @@ nav{
       background-color: gray;
       cursor: text;
       }
+
+    .main::first-letter{
+      color:black;
+      font-size: 25px;
+      font-weight: bold;
+
+    }
+
   h1{
-    color: darkkhaki;
+    font-family: 'Syne Mono', monospace;
+    color: silver;
+    font-size: 50px;
   }
+
+  h2{
+    font-family: 'Syne Mono', monospace;
+  }
+
+  h4{
+    font-family: 'Syne Mono', monospace;
+  }
+  .footer{
+    color: silver;
+
+  }
+.footer:hover {
+  background-size: 150%;
+  background-position: center ;
+}
